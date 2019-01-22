@@ -1,6 +1,3 @@
-# api-v3
-Official API documentation for Map My Tracks API (V3)
-
 Map My Tracks API (v3)
 ===
 The Map My Tracks API provides a simple interface that allows developers to access user accounts and update activity data. You can use this API to make your own applications seamlessly integrate with Map My Tracks.
