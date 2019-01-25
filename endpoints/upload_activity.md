@@ -5,17 +5,21 @@ Upload an activity to Map My Tracks. Activities can be formatted as either `GPX`
 Parameters
 ---
 
-`status` *(required)*
+- `status` *(required)*
 
 Indicates if this activity is to be public visible on Map My Tracks, or private and only visible to the user making the API call. Possible values are "public" and "private".
 
-`activity` *(required if file format is not `FIT`)*
+- `activity` *(required if file format is not `FIT`)*
 
 The activity type. Possible values are "canoeing", "cross country skiing", "cycling", "driving", "enduro", "flying", "gliding", "hand cycling", "hang gliding", "hiking", "horse riding", "hot air ballooning", "kayaking", "kiteboarding", "miscellaneous", "motor racing", "motorcycling", "mountain biking", "mountaineering", "nordic walking", "off road driving", "orienteering", "paragliding", "rowing", "running", "sailing", "sea kayaking","snowshoeing","jet skiing","powerboating","indoor cycling", "skateboarding", "skating", "skiing", "snowboarding", "stand up paddle boarding", "swimming", "walking", "wheelchair", "windsurfing".
 
-`file` *(required)*
+- `file` *(required)*
 
 A `GPX`, `FIT` or `TCX` file containing the activity.
+
+- `activity_name`
+
+The activity name that will appear on Map My Tracks.
 
 Response
 ---
