@@ -21,7 +21,7 @@ Applications acquire an OAuth access token for a user by following these steps: 
 curl -u <client_id>:<client_secret> https://www.mapmytracks.com/api3/oauth/token -d 'grant_type=authorization_code&redirect_uri=<redirect_url>&code=<code>'
 ```
 
-5. When the access token expires, call `https://www.mapmytracks.com/api3/oauth/token` with `grant_type=refresh_token` and your `refresh_token` to obtain a new access token. 
+5. When the access token expires, call `https://www.mapmytracks.com/api3/oauth/token` with `grant_type=refresh_token` and your `refresh_token` to obtain a new access token. Please note, as well as issuing a new access token, the system also issues a new refresh token that should be used on the next call. The refresh token that was supplied is expired and cannot be used again.
 
 ```
 # Example cURL to obtain an access token with a refresh token
