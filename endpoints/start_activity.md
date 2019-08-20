@@ -51,6 +51,7 @@ Response
 ---
 
 If the activity was successful, the API returns a JSON formatted reply indicating the unique identifier for the activity on Map My Tracks. A status propery indicates if the activity was newly created or found to already exist. Successful requests have a HTTP response code of 200.
+
 In the event the activity was not successful, the API returns a JSON formatted reply that indicates the reason for the failure. These error messages have a HTTP response code of 403.
 
 
@@ -58,7 +59,7 @@ Example
 ---
 
 ```
-curl -H 'Authorization: Bearer <access_token>' -F 'status=private' -F 'activity_type=Running' -F'data={"loc" : [{"lat" : 1, "lon" : 1, "timestamp" : 1.1, "unix_timestamp" : 1000}]}' http://www.mapmytracks.com/api3/startActivity
+curl -H 'Authorization: Bearer <access_token>' -F 'status=private' -F 'activity_type=Running' -F'data={"loc" : [{"lat" : 1, "lon" : 1, "timestamp" : 1.1, "unix_timestamp" : 1000}]}' https://www.mapmytracks.com/api3/startActivity
 ```
 
 **Success:**
