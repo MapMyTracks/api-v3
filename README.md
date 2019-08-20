@@ -14,7 +14,7 @@ Applications acquire an OAuth access token for a user by following these steps: 
 1. Register your application with us by emailing details of your project to [support@mapmytracks.com](mailto:support@mapmytracks.com). Once approved, we will supply you with a `client_id` and `client_secret`.
 2. Redirect the user to `https://www.mapmytracks.com/api3/oauth/authorize` passing your `client_id`, a `redirect_url` and `reponse_type=code`
 3. Upon authorization, the user will be redirected to your `redirect_url` with a `code` parameter appended to the URI.
-4. Exchange this code for an access and refresh tokens by calling `http://www.mapmytracks.com/api3/oauth/token` with `grant_type=authorization_code`, your original `redirect_url` and your `code`. Requests should be authenticated with a Basic HTTP Authentication header containing your `client_id` and `client_secret`.
+4. Exchange this code for an access and refresh tokens by calling `https://www.mapmytracks.com/api3/oauth/token` with `grant_type=authorization_code`, your original `redirect_url` and your `code`. Requests should be authenticated with a Basic HTTP Authentication header containing your `client_id` and `client_secret`.
 
 ```
 # Example cURL to obtain an access token with an authorization code
