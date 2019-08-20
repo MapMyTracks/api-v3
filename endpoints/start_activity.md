@@ -1,4 +1,4 @@
-Start an activity - Beta
+Start an activity (beta)
 ====
 Start an activity on Map My Tracks. 
 
