@@ -13,7 +13,7 @@ The activity id for which track to update on Map My Tracks
 
 - `data` *(required)*
 
-Below outlines the data to include within the request. Some are a requirement, others are not Provide this data as a JSON object. 
+Below outlines the data to include within the request. Some are a requirement, others are not. Provide this data as a JSON object. 
 
     - `loc`  *(required)*
 
