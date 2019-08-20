@@ -44,4 +44,7 @@ All requests should be authenticated with an OAuth2 access token. All API reques
 
 **Data input**
 * [Upload activity](endpoints/upload_activity.md)
+* [start activity](endpoints/start_activity.md)
+* [update activity](endpoints/update_activity.md)
+* [stop activity](endpoints/stop_activity.md)
 
