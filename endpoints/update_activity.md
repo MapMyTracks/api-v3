@@ -1,4 +1,4 @@
-Update an activity - Beta
+Update activity (beta)
 ====
 Update an activity on Map My Tracks. 
 
@@ -9,7 +9,6 @@ Parameters
 - `activity_id`
 
 The activity id for which track to update on Map My Tracks
-
 
 
 - `data` *(required)*
