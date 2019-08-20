@@ -28,7 +28,7 @@ curl -u <client_id>:<client_secret> https://www.mapmytracks.com/api3/oauth/token
 curl -u <client_id>:<client_secret> https://www.mapmytracks.com/api3/oauth/token -d 'grant_type=refresh_token&refresh_token=<refresh_token>'
 ```
 
-Applications can de-authorize tokens by calling `http://www.mapmytracks.com/api3/oauth/revoke` and passing the `code` that is to be revoked. To revoke a refresh token, also pass `token_type_hint=refresh_token`.
+Applications can de-authorize tokens by calling `https://www.mapmytracks.com/api3/oauth/revoke` and passing the `code` that is to be revoked. To revoke a refresh token, also pass `token_type_hint=refresh_token`.
 
 ```
 # Example cURLs to revoke access and refresh tokens
