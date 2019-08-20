@@ -1,6 +1,6 @@
-Start an activity (beta)
+Start activity (beta)
 ====
-Start activity on Map My Tracks. 
+Start an activity on Map My Tracks. 
 
 Parameters
 ---
