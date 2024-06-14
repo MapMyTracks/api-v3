@@ -4,7 +4,7 @@ Get route data from a user's individual route.
 
 Parameters
 ---
-- `route_uid` *(required)*
+- `route_id` *(required)*
 The identifier used to find the correct route.
 
 Response
@@ -20,7 +20,7 @@ Examples
 ---
 
 ````
-curl -H 'Authorization: Bearer <access_token>' 'https://routes.mapmytracks.com/api/get_route_data?route_uid=<route_uid>'
+curl -H 'Authorization: Bearer <access_token>' 'https://routes.mapmytracks.com/api/get_route_data?route_id=<route_id>'
 ````
 
 **Results**
