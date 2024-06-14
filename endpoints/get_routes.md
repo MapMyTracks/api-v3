@@ -36,7 +36,7 @@ curl -H 'Authorization: Bearer <access_token>' 'https://routes.mapmytracks.com/a
 "elevation_min": "1862.37",
 "duration": "5463.8891686247225",
 "activity": "road-bike",
-"route_id": "wdn11rcb0b1ij119bi3zzhcb1dwjef5m52ca96j1"
+"route_id": "wdn11rcb0b1iskjhdoijed3zzhcb1dwjef5m52ca96j1"
 },
 {
 "title": "Col du Tourmalet",
@@ -49,7 +49,7 @@ curl -H 'Authorization: Bearer <access_token>' 'https://routes.mapmytracks.com/a
 "elevation_min": "855.05",
 "duration": "5025.219",
 "activity": "road-bike",
-"route_id": "ja2aq8x587rflu73a6cheh1s9ju2jeainfd6a7iq"
+"route_id": "ja2aq8x587rfluduigsbjeh1s9ju2jeainfd6a7iq"
 },
 ]
 ````
